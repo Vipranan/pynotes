@@ -2,7 +2,7 @@
 title: Temp
 date: 2026-01-04
 author: Your Name
-cell_count: 2
+cell_count: 3
 score: 0
 ---
 
@@ -17,6 +17,14 @@ print(a,b)
 ```
 
     11 10
+
+
+
+```python
+print(a)
+```
+
+    11
 
 
 
