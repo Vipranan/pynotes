@@ -14,15 +14,15 @@ else:
     print("go home ")
 ```
 
-    10 11
+    10 1
 
 
-    you are allowed
+    go home 
 
 
 
 ```python
-
+print("hello")
 ```
 
 
