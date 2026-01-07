@@ -52,7 +52,34 @@
 </h6>
 
 
-    <hr>
+    <div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Welcome to the Tip Calculator!&quot;</span><span class="p">)</span>
+<span class="n">bill</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What was the total bill? $&quot;</span><span class="p">))</span>   
+<span class="n">tip</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What percentage tip would you like to give? 10, 12, or 15? &quot;</span><span class="p">))</span>
+<span class="n">people</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;How many people to split the bill? &quot;</span><span class="p">))</span>  
+
+<span class="n">tip_as_percent</span> <span class="o">=</span> <span class="n">tip</span> <span class="o">/</span> <span class="mi">100</span>
+<span class="n">total_tip_amount</span> <span class="o">=</span> <span class="n">bill</span> <span class="o">*</span> <span class="n">tip_as_percent</span>
+<span class="n">total_bill</span> <span class="o">=</span> <span class="n">bill</span> <span class="o">+</span> <span class="n">total_tip_amount</span>
+<span class="n">bill_per_person</span> <span class="o">=</span> <span class="n">total_bill</span> <span class="o">/</span> <span class="n">people</span>
+<span class="n">final_amount</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">bill_per_person</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Each person should pay: $</span><span class="si">{</span><span class="n">final_amount</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>Welcome to the Tip Calculator!
+
+
+What was the total bill? $ 100
+What percentage tip would you like to give? 10, 12, or 15?  10
+How many people to split the bill?  5
+
+
+Each person should pay: $22.0
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+
+<hr>
 <p><strong>Score: 0</strong></p>
 <p class="subheader">Category: <a href="https://Vipranan.github.io/pynotes/category/maths.html">maths</a>
 
